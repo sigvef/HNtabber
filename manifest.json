@@ -1,0 +1,11 @@
+{
+  "name": "HNtabber",
+  "version": "1.0",
+  "description": "Opens HN links in a new tab.", 
+ "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*","http://hackerne.ws/*"],
+      "js": ["tabber.js"]
+    }
+  ]
+}
